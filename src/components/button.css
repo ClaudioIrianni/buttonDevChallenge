@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&family=Poppins:wght@600&display=swap');
+
+:root {
+  --h1-color: #4f4f4f;
+  --h2-color: #333333;
+  --h3-color: #828282;
+
+  --default-color: #e0e0e0;
+  --outline-color: #ffffff;
+  --primary-color: #2962FF;
+  --secondary-color: #455A64;
+  --danger-color: #D32F2F;
+  --disable-shadow: #3d5afe;
+  
+  --hover-default: #aeaeae;
+  --hover-outline: rgba(41, 98, 255, 0.1);
+  --hover-primary: #0039CB;
+  --hover-secondary: #1C313A;
+  --hover-danger: #9A0007;
+
+  --primary-text-color: #FFFFFF;
+  --secondary-text-color: #3F3F3F;
+  --outline-text-color: #3D5AFE;
+
+  --border-default: none;
+  --border-outline: 1px solid #3D5AFE;
+
+  --box-shadow-primary: 0px 2px 3px rgba(51, 51, 51, 0.2);
+  --box-shadow-secondary: 0px 2px 3px rgba(0, 49, 202, 0.2);
+}
+
+h1 {
+  position: absolute;
+  width: 93px;
+  height: 36px;
+  left: 320px;
+  top: 53px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: var(--h1-color);
+}
